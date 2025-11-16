@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Dhvani Vanzwala - 23BCP271</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif
+        }
+
+        body {
+            background: #f5f7fb;
+            color: #222
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.4);
+            object-fit: cover;
+            margin-bottom: 20px
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            padding: 15px;
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08)
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 14px
+        }
+
+        nav a:hover {
+            background: #e7e9fc;
+            color: #333
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08)
+        }
+
+        h2 {
+            margin-bottom: 12px;
+            color: #333;
+            font-size: 22px
+        }
+
+        p,
+        li {
+            color: #555;
+            line-height: 1.6;
+            font-size: 15px
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 10px
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 18px;
+            margin-top: 18px
+        }
+
+        .project {
+            padding: 15px;
+            border-radius: 12px;
+            background: #fafafa;
+            border: 1px solid #eee
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px
+        }
+
+        .skill {
+            background: #eef0ff;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            color: #333
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="assets/profile.jpeg" alt="Profile" />
+        <h1>Dhvani Vanzwala</h1>
+        <p>B.Tech Computer Engineering • PDEU • 2025</p>
+        <p style="margin-top:10px;font-size:15px;opacity:0.9">A learner driven by curiosity, clarity, and continuous growth.</p>
+    </header>
+
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#ethics">Ethics</a>
+        <a href="#future">Future</a>
+        <a href="#conclusion">Conclusion</a>
+        <a href="#testimonials">Testimonials</a>
+    </nav>
+
+    <section id="intro">
+        <h2>Introduction & Learning Philosophy</h2>
+        <p>I am a Computer Engineering student at Pandit Deendayal Energy University (PDEU). My approach to learning is
+            rooted in hands-on experimentation, logical problem‑solving, and understanding concepts from the ground up.
+            I believe in consistent improvement, interdisciplinary learning, and applying theoretical knowledge to
+            real-world problems. This portfolio reflects my technical journey, academic growth, and the projects that
+            have helped shape my engineering mindset.</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume / CV</h2>
+        <h3>Education</h3>
+        <ul>
+            <li>B.Tech in Computer Engineering — Pandit Deendayal Energy University (2022–Present)</li>
+        </ul>
+        <h3>Work Experience</h3>
+        <p>Currently a full-time student. My experience includes project-based learning, coursework, and internships that strengthened my communication and technical skills.</p>
+        <ul>
+            <li><strong>Social & Rural Internship — NGO</strong> (Summer, 1st Year): Worked with a non-profit organization focusing on community support, awareness activities, and process documentation. This internship helped me understand real-world social challenges, teamwork, and responsibility.</li>
+            <li><strong>Soft Skills & Workplace Communication Project</strong>: Conducted interviews with working professionals to study workplace dynamics, communication styles, and organizational behavior. This project improved my interpersonal skills and understanding of professional environments.</li>
+        </ul>
+        <h3>Certifications & Awards & Awards</h3>
+        <ul>
+            <li>Python Programming — PDEU Lab Coursework</li>
+            <li>Database Management Systems Lab Certification</li>
+            <li>Digital Electronics Lab Practical Completion</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Interdisciplinary Projects & Research</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Digital Dice (Digital Electronics Lab)</h3>
+                <p>This project involved using combinational and sequential digital logic to simulate a dice roll. The
+                    design included truth tables, logic gates, flip-flops, and a seven-segment display to represent
+                    numbers from 1 to 6. It improved my understanding of circuit behavior and hardware implementation.</p>
+            </div>
+            <div class="project">
+                <h3>E‑Commerce Bookstore (DBMS Project)</h3>
+                <p>A database-driven online bookstore system featuring user login, book catalog management, order
+                    processing, and admin controls. Developed using SQL, relational schema design, ER diagrams, and CRUD
+                    operations. This project strengthened my concepts of normalization and data handling.</p>
+            </div>
+            <div class="project">
+                <h3>Hostel Management System (Web Technology Lab)</h3>
+                <p>A full-stack mini‑web application for managing hostel rooms, student allocations, and records. Built
+                    using HTML, CSS, JavaScript, and PHP/MySQL, focusing on responsive UI, form handling, and backend
+                    connectivity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Advanced Skill Development & Mastery</h2>
+        <div class="skills">
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">C++</div>
+            <div class="skill">OpenGL</div>
+            <div class="skill">HTML/CSS</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Leadership & Collaboration</div>
+        </div>
+    </section>
+
+    <section id="leadership">
+        <h2>Collaborative & Leadership Experiences</h2>
+        <p>Throughout my academic journey, I have participated in group projects, lab teams, and collaborative
+            assignments that helped me develop communication and coordination skills. I take initiative in organizing
+            tasks, ensuring clarity among team members, and contributing meaningfully to shared goals.</p>
+    </section>
+
+    <section id="ethics">
+        <h2>Global Awareness & Ethical Considerations</h2>
+        <p>As a future computing professional, I believe in responsible use of technology. My coursework and personal
+            learning emphasize data privacy, fair use of information, and designing solutions that are inclusive,
+            efficient, and ethically aligned. Understanding global issues such as cybersecurity, digital rights, and
+            sustainability forms an important part of my learning journey.</p>
+    </section>
+
+    <section id="future">
+        <h2>Future Aspirations & Professional Development</h2>
+        <p>I aim to explore advanced fields such as artificial intelligence, data science, and full‑stack development.
+            My goal is to build impactful software solutions, enhance my technical expertise, and continue growing
+            through projects, internships, and real-world applications.</p>
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusion & Self-Assessment</h2>
+        <p>This portfolio reflects my progress as a Computer Engineering student and highlights how each project and
+            skill contributes to my academic and professional identity. My experiences beyond technical coursework—such
+            as the social and rural internship and the Soft Skills & Workplace Communication project—have shaped me into
+            a more aware, empathetic, and effective communicator. These opportunities taught me how technology and
+            humanity intersect, strengthened my confidence in professional settings, and broadened my perspective on
+            real-world challenges. Moving forward, I aim to integrate these learnings into my technical journey and
+            continue growing both personally and professionally.</p>
+        </section>
+
+    <footer>>
+        Dhvani Vanzwala | 2025
+    </footer>
+
+</body>
+
+</html>
